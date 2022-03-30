@@ -13,7 +13,7 @@ for card in config["cards"]:
 
     with open(card["image"], "rb") as f:
         content = f.read()
-        image_url = f"data:image/jpeg;base64,{base64.b64encode(content)}"
+        image_url = f"data:image/png;base64,{base64.b64encode(content)}"
 
     template["body"][0]["items"][0]["columns"][0]["items"][0]["url"] = image_url
 
