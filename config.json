@@ -1,0 +1,21 @@
+{
+    "template" : "./templates/NotificationsTemplate.json",
+    "cards" : [
+        {
+            "output" : "./cards/DebugCard.json",
+            "image" : "./icons/debug.png"
+        },
+        {
+            "output" : "./cards/InfoCard.json",
+            "image" : "./icons/info.png"
+        },
+        {
+            "output" : "./cards/WarningCard.json",
+            "image" : "./icons/warning.png"
+        },
+        {
+            "output" : "./cards/ErrorCard.json",
+            "image" : "./icons/error.png"
+        }
+    ]
+}

@@ -17,7 +17,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "data:image/png;base64,iV",
+                                    "url": "hello",
                                     "spacing": "Padding"
                                 }
                             ]
